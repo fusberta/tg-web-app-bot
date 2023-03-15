@@ -1,6 +1,7 @@
 const TelegramBot = require('node-telegram-bot-api');
+import TOKEN from './settings'
 
-const token = '6279161210:AAGC5HZ5zCanzE2pDCeyJQJ4hIuDE-FY1sM';
+const token = TOKEN;
 
 const webAppUrl = 'https://regal-cocada-a3f4f5.netlify.app/';
 
